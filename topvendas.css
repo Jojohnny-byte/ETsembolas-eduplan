@@ -20,7 +20,8 @@
 
 body {
     font-family: "Inter", sans-serif; /* Tipo de fonte do projeto */
-    color: var(--texto-principal); /* Cor da fonte */
+    color: var(--texto-principal);
+    background-color: #B0C4DE;/* Cor da fonte */
 }
 
 .header {
