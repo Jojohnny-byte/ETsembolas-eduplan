@@ -49,7 +49,7 @@ body {
 
 /* Logo */
 
-.logo {
+.logotop {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -59,7 +59,7 @@ body {
     text-decoration: none; /* Essa linha remove o sublinhado que o navegador coloca em links por padrão */
 }
 
-.logo img {
+.logotop img {
     width: 80px; /* Define a largura da imagem da logo. */
 }
 
