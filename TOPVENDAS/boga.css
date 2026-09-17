@@ -1,0 +1,29 @@
+:root{
+ --azul-escuro: #002eac;
+ --azul: #0077ff; 
+ --verde: #3cd81d;
+ --verde-escuro: #007025;
+ --texto-principal: #000000;
+ --texto-secundario: #616161;
+ --cor-borda: #b0ebd7;
+ --cor-fundo: #d8d4ac;
+} 
+body{
+  font-family: "inter", sans-serif;
+}
+.header {
+  position: sticky;
+  top: 0%;
+  background-color: var(--cor-fundo);
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.header.inner {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
